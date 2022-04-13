@@ -325,30 +325,8 @@ textarea.contact-form-text {
   min-height:100vh;
   background:linear-gradient(to bottom,#E2D6C6,#B0CCC0);
 }
-/* absolute funkade ej
-section .color {
-  position:absolute;
-}
-section .color:nth-child(1){
-  top:-350px;
-  width:600px;
-  height:600px;
-  background:#40ba85;
-}
-section .color:nth-child(2){
-  bottom:-150px;
-  left:100px;
-  width:500px;
-  height:500px;
-  background:#ea8807;
-}
-section .color:nth-child(3){
-  bottom:50px;
-  left:100px;
-  width:300px;
-  height:300px;
-  background:#3e0507;
-}*/
+
+
 
 .container {
   position:relative;
@@ -363,9 +341,44 @@ section .color:nth-child(3){
   box-shadow: 0 25px 45px rgba(0,0,0,0.1);
   border:1px solid rgba(255,255,255,0.5);
 }
-<<<<<<< HEAD
-=======
+#service{
+  
+  justify-content:center;
+  align-items:center;
+  min-height:100vh;
+}
 
+.Products{
+  position:relative;
+  width:80%;
+  min-height:600px;
+  background:rgba(255,255,255,0.1);
+  border-radius:10px;
+  justify-content:center;
+  align-items:center;
+  backdrop-filter:blur(5px);
+  box-shadow: 0 25px 45px rgba(0,0,0,0.1);
+  border:1px solid rgba(255,255,255,0.5);
+  
+}
 
+.product-beskrivning{
+  font-size: 15px;
+  display: inline-block;
+ 
+  
+}
+.product-name{
+  width:100%;
+  text-align: center;
+}
 
->>>>>>> a7ba4024596216c7799d3720ffbbb56fbfddc6ec
+.buy{
+  width:100%;
+  text-align: center;
+}
+
+.Product-img{
+  width:50%;
+}
+
