@@ -225,10 +225,12 @@ body{
 @media screen and (max-width:768px){
   #home .context img{
       width: 300px;
-     
       
       
   }
+
+  
+
 }
 @keyframes animate {
 
@@ -340,7 +342,138 @@ body{
   }
 }
 
+<<<<<<< HEAD
 /*.product-name, .product-beskrivning , .buy{
   font-size: 20px;
 }*/
+=======
+<<<<<<< HEAD
+
+
+
+
+
+/*Contact*/
+.contact-section {
+  padding:40px 0;
+}
+
+.contact-section h1 {
+  text-align:center;
+  color:#B0CCC0;
+  text-shadow:0 0.4px white;
+  letter-spacing:1rem;
+  margin:20px;
+  backdrop-filter:blur(2px);
+  box-shadow: 0 25px 45px rgba(0,0,0,0.1);
+  border:2px solid rgba(255,255,255,0.2);
+  border-radius:5px;
+}
+ 
+
+.contact-form {
+  max-width:600px;
+  margin:auto;
+  padding:0 10px;
+  overflow:hidden;
+}
+.contact-form-text {
+  display:block;
+  width:100%;
+  box-sizing:border-box;
+  margin:16px 0 0;
+  border:0;
+  background:#E2D6C6;
+  padding:20px 40px;
+  outline:none;
+  color:#ddd;
+  transition:0.5s;
+  border:2px solid rgba(255,255,255,0.1);
+}
+
+.contact-form-text:hover {
+  box-shadow: 0 0 1px 4px #B0CCC0;
+}
+
+textarea.contact-form-text {
+  resize:none;
+  height:120px;
+}
+.contact-form-btn{
+  float:right;
+  border:0;
+  margin:20px;
+  background:rgba(159, 181, 230, 0.208);
+  color:#fff;
+  padding:12px 50px;
+  border-radius:20px;
+  cursor:pointer;
+  transition:0.5s;
+}
+.contact-form-btn:hover{
+  background:#B0CCC0;
+  
+}
+
+/*glassMorph*/
+#contact {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  min-height:100vh;
+  background:linear-gradient(to bottom,#E2D6C6,#B0CCC0);
+}
+/* absolute funkade ej
+section .color {
+  position:absolute;
+}
+section .color:nth-child(1){
+  top:-350px;
+  width:600px;
+  height:600px;
+  background:#40ba85;
+}
+section .color:nth-child(2){
+  bottom:-150px;
+  left:100px;
+  width:500px;
+  height:500px;
+  background:#ea8807;
+}
+section .color:nth-child(3){
+  bottom:50px;
+  left:100px;
+  width:300px;
+  height:300px;
+  background:#3e0507;
+}*/
+
+.container {
+  position:relative;
+  width:800px;
+  min-height:400px;
+  background:rgba(255,255,255,0.1);
+  border-radius:10px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  backdrop-filter:blur(5px);
+  box-shadow: 0 25px 45px rgba(0,0,0,0.1);
+  border:1px solid rgba(255,255,255,0.5);
+}
+=======
+>>>>>>> ff7bfa05a286836e84a731fbcb71504fe4e755e8
+
+@media screen and (max-width:768px){
+  .container h1 {
+    font-size:xx-large;
+  }
+  .container{
+      width: 600px;
+       
+  }
+}
+
+
+>>>>>>> b2f45cc38887e4d82989f2a2a4ba69e18a61e65b
 
