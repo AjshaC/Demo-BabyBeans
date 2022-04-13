@@ -246,18 +246,6 @@ body{
 
 }
 /*bilder för vårt galleri*/
-#service {
-  padding:0;
-  margin:0;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-}
 
 
-#service {
-  width:500%;
-  height:500px;
-  display:flex;
-}
 
