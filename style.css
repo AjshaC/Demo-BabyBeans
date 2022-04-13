@@ -250,9 +250,6 @@ body{
 /*bilder för vårt galleri*/
 
 
-<<<<<<< HEAD
-
-
 
 
 
@@ -364,18 +361,5 @@ section .color:nth-child(3){
   box-shadow: 0 25px 45px rgba(0,0,0,0.1);
   border:1px solid rgba(255,255,255,0.5);
 }
-=======
->>>>>>> ff7bfa05a286836e84a731fbcb71504fe4e755e8
-
-@media screen and (max-width:768px){
-  .container h1 {
-    font-size:xx-large;
-  }
-  .container{
-      width: 600px;
-       
-  }
-}
-
 
 
