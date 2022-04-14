@@ -389,7 +389,6 @@ textarea.contact-form-text {
 
 .Product-img img{
   width: 100%;
-  
   object-fit: cover;
   display: block;
   border-radius: .8rem;
