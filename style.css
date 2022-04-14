@@ -353,7 +353,7 @@ textarea.contact-form-text {
 
 }
 
-.mySlides-img img {
+.Product-img img {
   width:100%;
 }
 
@@ -367,7 +367,7 @@ textarea.contact-form-text {
   
 }
 
-.mySlides {
+.Products {
  width:100%;
  max-width:98rem;
  padding: 5rem;
@@ -379,7 +379,7 @@ textarea.contact-form-text {
  
 }
 
-.mySlides-img{
+.Product-img{
   min-width: 35rem;
   max-width: 35rem;
   height: 30rem;
@@ -387,7 +387,7 @@ textarea.contact-form-text {
   position: relative;
 }
 
-.mySlides-img img{
+.Product-img img{
   width: 100%;
   
   object-fit: cover;
@@ -395,7 +395,7 @@ textarea.contact-form-text {
   border-radius: .8rem;
 }
 
-.mySlides-img img::before{
+.Product-img img::before{
   content: '';
   width: 100%;
   height:100%;
@@ -404,7 +404,7 @@ textarea.contact-form-text {
   left: 0;
 }
 
-.mySlides-date span{
+.Product-date span{
   display: block;
   font-size:1.6rem;
   font-weight: 200;
@@ -439,15 +439,7 @@ textarea.contact-form-text {
   background-image: linear-gradient(to right, #00f2fe 0%, #4facfe 100%);
 }
 
-.prev {
-   width:100%;
-   height:100%;
-   margin:5px;
-   color:#4facfe8a;
-   font-size:40px;
 
-
-}
 @media screen and (max-width: 1068px) {
   .Products{
     max-width:70rem;
@@ -462,7 +454,7 @@ textarea.contact-form-text {
     flex-direction: column;
   }
 
-  .mySlides-img{
+  .Product-img{
     min-width:100%;
     max-width:100%;
     height:40%;
