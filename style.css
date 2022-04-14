@@ -261,13 +261,10 @@ body{
 
 .contact-section h1 {
   text-align:center;
-  color:#B0CCC0;
-  text-shadow:0 0.4px white;
+  color: #B0CCC0;
+  text-shadow: 2px 1px 2px #D39669;
   letter-spacing:1rem;
   margin:20px;
-  backdrop-filter:blur(2px);
-  box-shadow: 0 25px 45px rgba(0,0,0,0.1);
-  border:2px solid rgba(255,255,255,0.2);
   border-radius:5px;
 }
 
@@ -284,11 +281,10 @@ body{
   box-sizing:border-box;
   margin:16px 0 0;
   border:0;
-  background:#E2D6C6;
+  background: #b0ccc052;
   padding:20px 40px;
   outline:none;
-  color:#91c7af;
-  text-shadow:0 0.8px white;
+  color:#D39669;
   transition:0.5s;
   border:2px solid rgba(255,255,255,0.1);
 }
@@ -305,25 +301,26 @@ textarea.contact-form-text {
   float:right;
   border:0;
   margin:20px;
-  background:rgba(159, 181, 230, 0.208);
-  color:#fff;
+  background:#b0ccc06d;
+  color:#777;
   padding:12px 50px;
   border-radius:20px;
   cursor:pointer;
   transition:0.5s;
 }
 .contact-form-btn:hover{
-  background:#B0CCC0;
+  background:#d3956963;
   
 }
 
 /*glassMorph*/
-#contact {
+#contact{
+  background-image: url(img/Bg.jpg);
   display:flex;
   justify-content:center;
   align-items:center;
   min-height:100vh;
-  background:linear-gradient(to bottom,#E2D6C6,#b0ccc06f);
+  
 }
 
 
@@ -363,8 +360,7 @@ textarea.contact-form-text {
   align-items:center;
   padding: 0 1.5rem;
   background-image: url(Img/Bg.jpg);
-  background-repeat: no-repeat;
-  
+  background-repeat: no-repeat;  
 }
 
 .Products {
@@ -376,7 +372,9 @@ textarea.contact-form-text {
  align-items:center;
  border-radius: .8rem;
  margin: 20px;
- 
+ backdrop-filter:blur(5px);
+ background:rgba(255,255,255,0.1);
+ border:1px solid rgba(255,255,255,0.5);
 }
 
 .Product-img{
@@ -456,8 +454,6 @@ textarea.contact-form-text {
   .Product-img{
     min-width:100%;
     max-width:100%;
-    height:40%;
-    width:40%;
     transform: translate(0, -1rem);
   }
 
