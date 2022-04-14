@@ -123,12 +123,14 @@ body{
     margin-right: auto; 
     width: 600px;
     padding-top: 50px;
+    transition:all 3s ease-in-out;
 } 
 
 #home .Beans li img{
   position: absolute;
   width: 100%;
 }
+
 
 #home .Beans{
   position: absolute;
@@ -271,7 +273,7 @@ body{
   border:2px solid rgba(255,255,255,0.2);
   border-radius:5px;
 }
- 
+
 
 .contact-form {
   max-width:600px;
@@ -288,7 +290,8 @@ body{
   background:#E2D6C6;
   padding:20px 40px;
   outline:none;
-  color:#ddd;
+  color:#91c7af;
+  text-shadow:0 0.8px white;
   transition:0.5s;
   border:2px solid rgba(255,255,255,0.1);
 }
@@ -323,7 +326,7 @@ textarea.contact-form-text {
   justify-content:center;
   align-items:center;
   min-height:100vh;
-  background:linear-gradient(to bottom,#E2D6C6,#B0CCC0);
+  background:linear-gradient(to bottom,#E2D6C6,#b0ccc06f);
 }
 
 
