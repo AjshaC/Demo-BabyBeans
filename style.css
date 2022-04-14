@@ -353,7 +353,7 @@ textarea.contact-form-text {
 
 }
 
-.mySlides-img img {
+.Product-img img {
   width:100%;
 }
 
@@ -389,7 +389,6 @@ textarea.contact-form-text {
 
 .mySlides-img img{
   width: 100%;
-  
   object-fit: cover;
   display: block;
   border-radius: .8rem;
