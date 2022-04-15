@@ -25,7 +25,7 @@ body{
   }
 
 .sec:nth-child(odd){
-    background: #EEE2D2;
+  background: #EEE2D2;
 }
 
 
@@ -350,20 +350,31 @@ textarea.contact-form-text {
 
 }
 
-.Product-img img {
+/*About*/
+
+
+
+.Product-img img, .about-img img{
   width:100%;
 }
 
-#service{
+#about{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding: 0 1.5rem;
+}
+
+#service {
   display:flex;
   justify-content:center;
   align-items:center;
   padding: 0 1.5rem;
   background-image: url(Img/Bg.jpg);
-  background-repeat: no-repeat;  
+  background-repeat: no-repeat;
 }
 
-.Products {
+.Products, .About {
  width:100%;
  max-width:98rem;
  padding: 5rem;
@@ -371,13 +382,12 @@ textarea.contact-form-text {
  display: flex;
  align-items:center;
  border-radius: .8rem;
- margin: 20px;
  backdrop-filter:blur(5px);
  background:rgba(255,255,255,0.1);
  border:1px solid rgba(255,255,255,0.5);
 }
 
-.Product-img{
+.Product-img, .about-img{
   min-width: 35rem;
   max-width: 35rem;
   height: 30rem;
@@ -385,14 +395,14 @@ textarea.contact-form-text {
   position: relative;
 }
 
-.Product-img img{
+.Product-img img, .about-img img{
   width: 100%;
   object-fit: cover;
   display: block;
   border-radius: .8rem;
 }
 
-.Product-img img::before{
+.Product-img img::before, .about-img img::before{
   content: '';
   width: 100%;
   height:100%;
@@ -401,20 +411,20 @@ textarea.contact-form-text {
   left: 0;
 }
 
-.Product-date span{
+.Product-date span, .about-date span {
   display: block;
   font-size:1.6rem;
   font-weight: 200;
   margin: .5rem 0;
 }
 
-.product-name{
+.product-name, .about-name{
   font-size: 2.5rem;
   margin: 1.5rem 0 2rem;
   text-transform: uppercase;
 }
 
-.product-beskrivning{
+.product-beskrivning, .about-beskrivning{
   margin-bottom: 3rem;
   font-size:1rem;
   
@@ -444,16 +454,18 @@ textarea.contact-form-text {
   
 }
 @media screen and (max-width:768px) {
-  .Products{
+  .Products, .About{
     padding:2.5rem;
     margin-top: 25px;
     margin-bottom: 25px;
     flex-direction: column;
   }
 
-  .Product-img{
+  .Product-img,.about-img {
     min-width:100%;
     max-width:100%;
+    height:40%;
+    width:40%;
     transform: translate(0, -1rem);
   }
 
