@@ -363,7 +363,7 @@ textarea.contact-form-text {
   background-repeat: no-repeat;  
 }
 
-.Products {
+.mySlides {
  width:100%;
  max-width:98rem;
  padding: 5rem;
@@ -444,23 +444,33 @@ textarea.contact-form-text {
   
 }
 @media screen and (max-width:768px) {
-  .Products{
+  .mySlides{
     padding:2.5rem;
     margin-top: 25px;
     margin-bottom: 25px;
     flex-direction: column;
   }
 
-  .Product-img{
+  .Product-img {
     min-width:100%;
     max-width:100%;
-    transform: translate(0, -1rem);
   }
 
+  .Product-img Img{
+    width:400px;
+    height:300px;
+    transform: translate(10rem, 5rem);
+  }
   #service{
     background-size: cover;
 
   }
+
+  .prodct-info {
+    margin-left:50px;
+    width:60%;
+  }
   
+
 }
 
